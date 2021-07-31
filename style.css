@@ -1,0 +1,25 @@
+#dwarfs{
+    list-style: square;
+    list-style-position: inside;
+    background-color: rgb(148,189,148);
+    width: 25vw;
+}
+
+#movies{
+    background-color: rgb(207,158,193);
+    list-style: upper-roman;
+    list-style-position: outside;
+    width: 25vw;
+}
+
+table{
+    width: 50vw;
+    border: 5px solid gray;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){  background-color: lightskyblue}
+tr:nth-child(odd){  background-color: lightgrey}
+th{  background-color:white;}
+
+td{  border: 1px solid black;}
